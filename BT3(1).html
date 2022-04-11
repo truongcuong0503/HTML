@@ -8,7 +8,9 @@
 
     <style>
         .table {
+            box-sizing: border-box;
             font-family: Arial, Helvetica, sans-serif;
+            border-color: aquamarine;
         }
         .main {
             background-color: red;
@@ -17,13 +19,12 @@
         .blue {
             color: blue;
         }
-        .orga {
+
+        .orange {
             color: orange;
         }
         .ali {
             text-align: center;
-            background-color: darkgray;
-            color: black;
         }
     </style>
 </head>
@@ -41,22 +42,25 @@
             <td colspan="2"><input type="email" name="email"></td>
         </tr>
         <tr>
-            <td rowspan="4" class="blue">Sở thích</td>
-            <td class="orga"><input type="checkbox" name="hobby">Thể thao</td>
-            <td class="orga"><input type="checkbox" name="hobby">Âm nhạc</td>
-            <td class="orga"><input type="checkbox" name="hobby">Đọc sách</td>
+            <td class="blue">Sở thích</td>
+            <td class="orange"><input type="checkbox" name="hobby">Thể thao</td>
+            <td class="orange"><input type="checkbox" name="hobby">Âm nhạc</td>
+            <td class="orange"><input type="checkbox" name="hobby">Đọc sách</td>
         </tr>
         <tr>
-            <td class="orga"><input type="checkbox" name="hobby">Lướt web</td>
-            <td class="orga"><input type="checkbox" name="hobby">Chơi game</td>
-            <td class="orga"><input type="checkbox" name="hobby">Điện ảnh</td>
+            <td></td>
+            <td class="orange"><input type="checkbox" name="hobby">Lướt web</td>
+            <td class="orange"><input type="checkbox" name="hobby">Chơi game</td>
+            <td class="orange"><input type="checkbox" name="hobby">Điện ảnh</td>
         </tr>
         <tr>
-            <td class="orga"><input type="checkbox" name="hobby">Du lịch</td>
+            <td></td>
+            <td class="orange"><input type="checkbox" name="hobby">Du lịch</td>
         </tr>
         <tr>
-            <td class="ali"><input type="submit" name="submit" value="Gửi thông tin"></td>
-            <td class="ali"><input type="reset" name="reset" value="Nhập lại"></td>
+            <td></td>
+            <td class="align"><input type="submit" name="submit" value="Gửi thông tin"></td>
+            <td class="align"><input type="reset" name="reset" value="Nhập lại"></td>
         </tr>
     </table>
 </body>
